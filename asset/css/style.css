@@ -175,6 +175,9 @@ html {
         max-width: inherit;
         
     }
+    .ab-marg{
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 992px ){
@@ -204,7 +207,9 @@ html {
      .top-m{
         margin-top: 160px !important;
      }
-      
+      .ab-marg{
+       margin-top: 70px;
+      }
 
 }
 .f-pad{

@@ -64,8 +64,31 @@ async function services(){
 
   const secondFunction = async () => {
     const result = await services()
-    // do something else here after firstFunction completes
+ 
     document.getElementById('services').scrollIntoView({
+        behavior: 'smooth'
+   });
+}
+
+
+async function contactus(){
+    d.style.display = 'none';  
+    a.style.display = 'none';
+    ab.style.display = 'none';
+    h.style.display = 'block'; 
+    if(h.style.display = 'block' ){
+        document.getElementById('contact').scrollIntoView({
+            behavior: 'smooth'
+       });
+    }
+   
+}
+   
+
+  const secFunction = async () => {
+    const result = await contactus()
+
+    document.getElementById('contact').scrollIntoView({
         behavior: 'smooth'
    });
 }
