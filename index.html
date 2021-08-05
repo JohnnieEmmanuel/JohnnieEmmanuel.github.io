@@ -24,11 +24,11 @@
                <strong>
                 <ul class="navbar-nav" >
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><span><i class="fas fa-home"></i></span>Home</a>
+                    <a class="nav-link active" onclick="home()" aria-current="page" ><span><i class="fas fa-home"></i></span>Home</a>
                   </li>
                   
-                  <li class="nav-item">
-                    <a class="nav-link" href="#services" >
+                  <li class="nav-item" onclick="services()" >
+                    <a class="nav-link"  >
                       <span><i class="fab fa-whmcs"  aria-hidden="true"></i></span>    Our Services
                     </a>
               
@@ -38,22 +38,17 @@
                     </a>
                     
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item"    href="#">Directors and Management</a></li>
-                      <li><a class="dropdown-item" href="#">Corporate Directory</a></li>
+                      <li><a class="dropdown-item"   ONCLICK="shgroupmanagement()"> Directors and Management</a></li>
+                      <li><a class="dropdown-item" ONCLICK="shallstaff()">Corporate Directory</a></li>
                     </ul>
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link "   ONCLICK="aboutus()" aria-expanded="false">
                      About Us <span><i class="fas fa-info-circle" aria-hidden="true"></i>
                       
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item"    href="#">Our Vision</a></li>
-                      <li><a class="dropdown-item" href="#">Strength and Strategies</a></li>
-                      <li><a class="dropdown-item" href="#">Values and History</a></li>
-
-                    </ul>
+                    
                   </li>
 
                   <li class="nav-item">
@@ -69,7 +64,7 @@
 </div>
 
 
-      
+      <span id="home">
               <div class="container-fluid">
                   <div class="row align-items-center box-top-change"  >
                       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -396,7 +391,16 @@ Providing the right quality is an essential part of our service. We achieve this
 </div>
 
 <div  id="d-noned" style="background-color: black;"  ></div>
-
+</span>
+<span id="directors">
+  Testing the microphone
+</span>
+<span id="allstaff">
+  Testing All High Staffs
+</span>
+<div id="aboutus">
+  Testing About Us
+</div>
 </body>
 
    
