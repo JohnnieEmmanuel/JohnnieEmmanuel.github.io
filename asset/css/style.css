@@ -206,7 +206,7 @@ html {
 
 }
 .f-pad{
-    padding-top:40px  !important;
+    padding-top:100px  !important;
 }
 
 .ee{
@@ -239,9 +239,9 @@ text-align: justify;
     }
 
     nav {
-        background: linear-gradient(-45deg,  #ffc107,rgb(5, 134, 253),#e8a643,#ff9800,#e1931f );
+        background: linear-gradient(-45deg,  #ffc107,rgb(5, 134, 253),#e8a643,#ff9800,#e68a00 );
         background-size: 300% 400%;
-        animation: gradient 20s ease-in-out infinite;
+        animation: gradient 15s ease-in-out infinite;
     }
     
     @keyframes gradient {
