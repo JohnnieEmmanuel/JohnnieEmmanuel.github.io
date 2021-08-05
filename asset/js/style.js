@@ -62,13 +62,7 @@ async function services(){
 }
    
 
-  const secondFunction = async () => {
-    const result = await services()
- 
-    document.getElementById('services').scrollIntoView({
-        behavior: 'smooth'
-   });
-}
+
 
 
 async function contactus(){
@@ -85,11 +79,5 @@ async function contactus(){
 }
    
 
-  const secFunction = async () => {
-    const result = await contactus()
 
-    document.getElementById('contact').scrollIntoView({
-        behavior: 'smooth'
-   });
-}
 
