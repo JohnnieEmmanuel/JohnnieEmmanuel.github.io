@@ -1,9 +1,7 @@
-live view 
-
-https://johnnieemmanuel.github.io/
 
 
-Redeveloped the website of Ibeto Group Nigeria.
-A one page dynamic website, allowing faster load of pages, on smaller device website works as a mobile application for easy navigation by users.
+Revamped the website of Ibeto Group Nigeria.
+A one page dynamic website, allowing faster load of pages.
+Nav bar is located at the bottom of the screen for smaller screens.
 
-.. Built using HTML, CSS AND JAVASCRIPT.
+
